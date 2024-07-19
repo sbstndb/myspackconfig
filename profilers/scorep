@@ -4,3 +4,5 @@ spack install python@3.11
 spack load python@3.11
 // spack install scorep
 spack install scorep -cuda +mpi +papi +pdt -shmem +unwind -hip ^openmpi
+spack install scorep -cuda +mpi +papi +pdt -shmem +unwind -hip ^mpich
+
