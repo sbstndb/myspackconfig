@@ -1,0 +1,4 @@
+
+spack install openmpi%gcc@14 +atomics +cuda cuda_arch==86 +memchecker +internal_pmix
+
+

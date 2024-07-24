@@ -1,0 +1,5 @@
+// for cuda support, only llvm@14
+spack install llvm +cuda cuda_arch==86 +libomptarget_debug ^cuda@12.4.0+dev
+// more recent version (llvm@18) but without cuda support --> a tester 
+spack install llvm +flang +libomptarget_debug +python +mlir +zstd
+

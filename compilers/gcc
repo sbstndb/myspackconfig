@@ -1,0 +1,2 @@
+spack install --add gcc +binutils +graphite +nvptx +piclibs
+
